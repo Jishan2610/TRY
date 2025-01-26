@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom right, #ffe4e6, #fecdd3);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .card {
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header {
+    margin-bottom: 20px;
+  }
+  
+  .icon-heart {
+    color: #f472b6;
+  }
+  
+  .title {
+    font-size: 1.8rem;
+    color: #d946ef;
+    margin-top: 10px;
+  }
+  
+  .compliment-box {
+    background: #fff1f2;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 20px;
+    min-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .compliment {
+    font-size: 1.2rem;
+    color: #9d174d;
+    font-style: italic;
+  }
+  
+  .next-button {
+    background: #f472b6;
+    color: #ffffff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s ease;
+  }
+  
+  .next-button:hover {
+    background: #d946ef;
+  }
+  
+  .icon-sparkles {
+    margin-right: 8px;
+  }
+  
+  .footer {
+    margin-top: 20px;
+    color: #9d174d;
+    font-size: 0.9rem;
+  }
+  
